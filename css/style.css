@@ -1,0 +1,118 @@
+
+
+.faq-cat-content {
+    margin-top: 1px;
+}
+
+.faq-cat-tabs li a {
+    padding: 15px 10px 15px 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    color: #111;
+}
+
+.nav-tabs li a:focus,
+.panel-heading a:focus {
+    outline: none;
+}
+
+.panel-heading a,
+.panel-heading a:hover,
+.panel-heading a:focus {
+    text-decoration: none;
+    color: #428bca;
+}
+
+
+.active-faq {
+    border-left: 5px solid #888888;
+}
+
+.panel-faq .panel-heading .panel-title span {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+
+
+.faq-cat-content .panel-title {
+     font-family: "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #111;
+    font-size: 13px;
+}
+
+.faq-cat-content .panel-default>.panel-heading {
+    color: #333;
+    background-color: transparent;
+    border-color: #ddd;
+}
+
+.faq-cat-content .panel {
+    margin-bottom: 0px;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8 !important;
+    border-radius: 3px;
+}
+
+.panel {
+    margin-bottom: 0px;
+    background-color: #fff;
+    border: 0px solid transparent; 
+    border-radius: 4px;
+    -webkit-box-shadow: none !important; 
+    box-shadow: none !important; 
+}
+.faq-cat-content i.glyphicon.glyphicon-chevron-right {
+    padding: 0px 10px 0px 0px;
+    color: #428bca;
+}
+
+.faq-cat-content i.glyphicon.glyphicon-chevron-down {
+    padding: 0px 10px 0px 0px;
+    color: #428bca;
+}
+
+.faq-cat-content .nav-tabs>li>a:hover {
+    border-color: transparent !important;
+}
+.faq-cat-content .nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #428bca !important;
+    cursor: default;
+    background-color: #fff;
+    border-bottom: 1px solid !important;
+    border: 1px solid #fff !important;
+    border-bottom-color: #428bca !important;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: transparent !important;
+}
+.bs_bootstrap .nav-tabs {
+    border-bottom: none !important;
+}
+.bs_bootstrap .panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 2px !important;
+}
+
+@media only screen and (max-width: 460px) {
+   .faq-cat-content i.glyphicon.glyphicon-chevron-right {
+    padding: 0px;
+    color: #428bca;
+   }
+
+.faq-cat-content i.glyphicon.glyphicon-chevron-down {
+    padding: 0px;
+    color: #428bca;
+  }
+  .faq-cat-content .panel-title {
+    font-size: 11px;
+  }
+}
